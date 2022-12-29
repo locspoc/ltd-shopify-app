@@ -1,0 +1,33 @@
+{
+	"name": "ltd-shopify-app",
+	"version": "1.0.0",
+	"description": "LT Digital Shopify App",
+	"main": "/pages/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node server.js",
+		"build": "next build",
+		"start": "NODE_ENV=production node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/locspoc/ltd-shopify-app.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/locspoc/ltd-shopify-app/issues"
+	},
+	"homepage": "https://github.com/locspoc/ltd-shopify-app#readme",
+	"dependencies": {
+		"@shopify/koa-shopify-auth": "^3.2.0",
+		"dotenv": "^16.0.3",
+		"isomorphic-fetch": "^3.0.0",
+		"koa": "^2.14.1",
+		"koa-session": "^6.2.0",
+		"next": "^13.1.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}
